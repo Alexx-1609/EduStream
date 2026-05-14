@@ -49,15 +49,6 @@ edustream/
 
 ---
 
-## Day-by-day plan
-
-| Day | What you do | Command |
-|-----|-------------|---------|
-| 1   | Install Python dependencies, run demo without Docker | `pip install -r requirements.txt` then `python scripts/demo_no_docker.py` |
-| 2   | Run all tests, read the code | `python -m pytest tests/ -v` |
-| 3   | Start Docker, spin up Kafka + HDFS | `docker-compose up -d` |
-| 4   | Run producer + consumer with real Kafka | See "With Docker" section below |
-| 5   | Generate report, polish README | `python analyze.py` |
 
 ---
 
